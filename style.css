@@ -1,0 +1,123 @@
+
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  position: fixed;
+  color: #fff;
+  text-align: center;
+  z-index:9999999;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.services {
+  text-align: center;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  text-align: left;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.main_container {
+    width: 80%;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(173, 170, 170);
+}
+
+.skillset {
+    text-align: right;
+    color: #fff;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mysql {
+    width: 45%;
+    background-color: red;
+}
+
+.html {
+    width: 80%;
+    background-color: green;
+}
+
+.css {
+    width: 40%;
+    background-color: rgb(128, 23, 197);
+}
+
+.jquery {
+    width: 50%;
+    background-color: rgb(51, 60, 87);
+}
+
+p {
+    margin-bottom: 2px;
+    font-size: 22px;
+}
+.skill {
+  border: 10px solid black;
+  margin: 20px;
+  align-items: center;
+}
+#title {
+  margin-left: 5%;
+}
+h1 {
+  text-align: center;
+}
+.title {
+  margin-bottom: 50px;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+label {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
